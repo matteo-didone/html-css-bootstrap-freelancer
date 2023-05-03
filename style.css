@@ -1,3 +1,4 @@
+/* Resetting Default Styles*/
 ul 
 {
     list-style-type: none;
@@ -15,3 +16,58 @@ a
 {
     display: none;
 }
+
+/* HEADER */
+header
+{
+    color: white;
+    background-color: rgba(45,62,81,255);
+}
+
+/* MAIN */
+
+/* SECTION 1 */
+.section-1
+{
+    color: white;
+    background-color: rgba(27,189,156,255);
+}
+
+/* SECTION 2 */
+.section-2
+{
+    color: rgba(45,62,81,255);
+    background-color: white;
+}
+
+/* SECTION 3 */
+.section-3
+{
+    color: white;
+    background-color: rgba(27,189,156,255);
+}
+
+/* SECTION 4 */
+.section-4
+{
+    color: rgba(45,62,81,255);
+    background-color: white;
+}
+
+/* FOOTER */
+
+/* FOOTER TOP */
+.footer-top
+{
+    color: white;
+    background-color: rgba(58,84,109,255);
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom
+{
+    color: white;
+    background-color: rgba(45,62,81,255);
+}
+
+
