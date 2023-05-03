@@ -23,25 +23,205 @@
 
     <body>
 
-        <head>
-            <div class="container"> 
-                <div class="row">
+        <header>
+            <div class="container-fluid"> 
+                <div class="navbar">
 
-                    <div class="col start-bootstrap">
+                    <div class="start-bootstrap">
                         <h1>START BOOTSTRAP</h1>
                     </div>
 
-                    <div class="col hamburger-menu"> 
+                    <div class="hamburger-menu"> 
                         <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="hidden">
+                        <nav>
+                            <ul>
+                                <li><a href="#">PORTFOLIO</a></li>
+                                <li><a href="#">ABOUT</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul> 
+                        </nav>
                     </div>
 
                 </div>
             </div>
-        </head>
+        </header>
 
         <main>
+            <div class="container-fluid container-main">
 
+                <section class="section-1 start-bootstrap-section">
+                    <img src="img/avatar.svg" alt="avatar">
+                    <h1>START BOOTSTRAP</h1>
+
+                    <div class="lines-and-stars">
+                        <div class="line"></div>
+                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <div class="line"></div>
+                    </div>
+
+                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                </section>
+
+                <section class="section-2 portfolio-section">
+                    <h1>PORTFOLIO</h1>
+
+                    <div class="lines-and-stars">
+                        <div class="line"></div>
+                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+
+                            <div class="col-4">
+                                <img src="img/cabin.png" alt="cabin">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="img/cake.png" alt="cake">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="img/circus.png" alt="circus">
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-4">
+                                <img src="img/game.png" alt="game">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="img/safe.png" alt="safe">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="img/submarine.png" alt="submarine">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="section-3 about-section">
+                    <h1>ABOUT</h1>
+
+                    <div class="lines-and-stars">
+                        <div class="line"></div>
+                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="left-text">
+                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization.
+                        </p>
+                    </div>
+
+                    <div class="right-text">
+                        <p>
+                            Whether vou're a student looking to showcase vou work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                        </p>
+                    </div>
+
+                    <button type="button" class="btn btn-primary">
+                        <i class="fa-solid fa-download" style="color: #ffffff;"></i>
+                        <a href="#">Download</a>
+                    </button>
+
+                </section>
+
+                <section class="section-4 contact-me-section">
+                    <h1>CONTACT ME</h1>
+
+                    <div class="lines-and-stars">
+                        <div class="line"></div>
+                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="contact-form">
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Name"/>
+                            <label for="name">Name</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email-address" type="text" placeholder="Email Address"/>
+                            <label for="name">Email Address</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone-number" type="text" placeholder="Phone Number"/>
+                            <label for="name">Phone Number</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="message" type="text" placeholder="Message"/>
+                            <label for="name">Message</label>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn btn-primary">
+                        <a href="#">Send</a>
+                    </button>
+
+                </section>
+
+            </div>
         </main>
+
+        <footer>
+            <div class="container-fluid">
+
+                <section class="footer-top row">
+
+                    <div class="container-fluid">
+                        <div class="col column-1">
+                            <h1>LOCATION</h1>
+                            <p>
+                                2215 John Daniel Drive Clark, MO 65243
+                            </p>
+                        </div>
+
+                        <div class="col column-2">
+                            <h1>AROUND THE WEB</h1>
+                            <ul> 
+                                <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col column-3">
+                            <h1>ABOUT FREELANCER</h1>
+                            <p>
+                                Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <section class="footer-bottom row">
+                    <div class="col">
+                        <p>
+                            Copyright <i class="fa-regular fa-copyright" style="color: #ffffff;"></i> Your Website 2019
+                        </p>
+                    </div> 
+                </section>
+            </div>
+        </footer>
 
     </body>
 
