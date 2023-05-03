@@ -33,6 +33,15 @@ header
     background-color: rgba(27,189,156,255);
 }
 
+.hamburger-menu
+{
+    color: rgba(137,137,136,255);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(220,221,220,255);
+    border-radius: 5px;
+}
+
 /* SECTION 2 */
 .section-2
 {
