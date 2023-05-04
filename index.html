@@ -26,16 +26,16 @@
         <header>
 
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg d-flex"> 
-                    <div class="start-bootstrap ml-auto align-items-center justify-content-start">
-                        <h1 class="fs-3 fw-bold">START BOOTSTRAP</h1>
+                <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center"> 
+                    <div class="start-bootstrap ml-auto">
+                        <h1 class="fs-3 fw-bold text-center">START BOOTSTRAP</h1>
                     </div>
     
                     <div class="hamburger-menu align-items-center justify-content-end d-lg-none"> 
                         <i class="fa-solid fa-bars"></i>
                     </div>
     
-                    <div class="collapse navbar-collapse d-none">
+                    <div class="collapse navbar-collapse d-none justify-content-center">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active"><a class="nav-link" href="#">PORTFOLIO</a></li>
                             <li class="nav-item active"><a class="nav-link" href="#">ABOUT</a></li>
@@ -120,69 +120,79 @@
                 </section>
 
                 <section class="section-3 about-section">
-                    <h1>ABOUT</h1>
 
-                    <div class="lines-and-stars">
-                        <div class="line"></div>
-                        <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <div class="line"></div>
+                    <div class="container">
+                        <div class="row py-5">
+                            <div class="col-12 text-center">
+                                <h1>ABOUT</h1>
+
+                                <div class="lines-and-stars">
+                                    <div class="line"></div>
+                                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                                    <div class="line"></div>
+                                </div>
+
+                                <div class="left-text">
+                                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization.
+                                    </p>
+                                </div>
+
+                                <div class="right-text">
+                                    <p>
+                                        Whether vou're a student looking to showcase vou work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                                    </p>
+                                </div>
+
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa-solid fa-download" style="color: #ffffff;"></i>
+                                    <a href="#">Download</a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="left-text">
-                        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization.
-                        </p>
-                    </div>
-
-                    <div class="right-text">
-                        <p>
-                            Whether vou're a student looking to showcase vou work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-                        </p>
-                    </div>
-
-                    <button type="button" class="btn btn-primary">
-                        <i class="fa-solid fa-download" style="color: #ffffff;"></i>
-                        <a href="#">Download</a>
-                    </button>
 
                 </section>
 
                 <section class="section-4 contact-me-section">
-                    <h1>CONTACT ME</h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h1>CONTACT ME</h1>
 
-                    <div class="lines-and-stars">
-                        <div class="line"></div>
-                        <span class="star"><i class="fa-solid fa-star"></i></span>
-                        <div class="line"></div>
+                                <div class="lines-and-stars">
+                                    <div class="line"></div>
+                                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                                    <div class="line"></div>
+                                </div>
+
+                                <form class="contact-form">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="name" type="text" placeholder="Name"/>
+                                        <label for="name">Name</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="email-address" type="text" placeholder="Email Address"/>
+                                        <label for="name">Email Address</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="phone-number" type="text" placeholder="Phone Number"/>
+                                        <label for="name">Phone Number</label>
+                                    </div>
+
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="message" type="text" placeholder="Message"/>
+                                        <label for="name">Message</label>
+                                    </div>
+                                </form>
+
+                                <button type="button" class="btn btn-primary">
+                                    <a href="#">Send</a>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="contact-form">
-
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Name"/>
-                            <label for="name">Name</label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="email-address" type="text" placeholder="Email Address"/>
-                            <label for="name">Email Address</label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone-number" type="text" placeholder="Phone Number"/>
-                            <label for="name">Phone Number</label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="message" type="text" placeholder="Message"/>
-                            <label for="name">Message</label>
-                        </div>
-
-                    </div>
-
-                    <button type="button" class="btn btn-primary">
-                        <a href="#">Send</a>
-                    </button>
-
                 </section>
 
             </div>
@@ -192,43 +202,49 @@
 
             <div class="container-footer">
 
-                <section class="footer-top row">
+                <section class="footer-top">
 
                     <div class="container-fluid">
-                        <div class="col column-1">
-                            <h1>LOCATION</h1>
-                            <p>
-                                2215 John Daniel Drive Clark, MO 65243
-                            </p>
-                        </div>
-
-                        <div class="col column-2">
-                            <h1>AROUND THE WEB</h1>
-                            <ul> 
-                                <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col column-3">
-                            <h1>ABOUT FREELANCER</h1>
-                            <p>
-                                Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>
-                            </p>
+                        <div class="row">
+                            <div class="col-12 text-center column-1">
+                                <h1>LOCATION</h1>
+                                <p>
+                                    2215 John Daniel Drive Clark, MO 65243
+                                </p>
+                            </div>
+    
+                            <div class="col-12 text-center column-2">
+                                <h1>AROUND THE WEB</h1>
+                                <ul> 
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a></li>
+                                </ul>
+                            </div>
+    
+                            <div class="col-12 text-center column-3">
+                                <h1>ABOUT FREELANCER</h1>
+                                <p>
+                                    Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
 
                 </section>
 
 
-                <section class="footer-bottom row">
-                    <div class="col">
-                        <p>
-                            Copyright <i class="fa-regular fa-copyright" style="color: #ffffff;"></i> Your Website 2019
-                        </p>
-                    </div> 
+                <section class="footer-bottom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p>
+                                    Copyright <i class="fa-regular fa-copyright" style="color: #ffffff;"></i> Your Website 2019
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </footer>
