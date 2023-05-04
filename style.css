@@ -17,6 +17,11 @@ a
     display: none;
 }
 
+.bg-light-green
+{
+    background-color: rgba(27,189,156,255);
+}
+
 /* GENERAL */
 .lines-and-stars 
 {
