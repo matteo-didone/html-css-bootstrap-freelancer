@@ -37,9 +37,9 @@
     
                     <div class="collapse navbar-collapse d-none justify-content-center">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active"><a class="nav-link" href="#">PORTFOLIO</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#">ABOUT</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="#">CONTACT</a></li>
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">PORTFOLIO</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">ABOUT</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">CONTACT</a></li>
                         </ul> 
                     </div>
     
@@ -123,8 +123,8 @@
 
                     <div class="container">
                         <div class="row py-5">
-                            <div class="col-12 text-center">
-                                <h1>ABOUT</h1>
+                            <div class="col-12">
+                                <h1 class="text-center">ABOUT</h1>
 
                                 <div class="lines-and-stars">
                                     <div class="line"></div>
@@ -132,21 +132,23 @@
                                     <div class="line"></div>
                                 </div>
 
-                                <div class="left-text">
+                                <div class="left-text text-left px-5">
                                     <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML. CSS. and JavaScript as well as optional LESS stylesheets for easy customization.
                                     </p>
                                 </div>
 
-                                <div class="right-text">
+                                <div class="right-text text-left px-5 mt-4">
                                     <p>
                                         Whether vou're a student looking to showcase vou work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                                     </p>
                                 </div>
 
-                                <button type="button" class="btn border-white rounded-3">
-                                    <i class="fa-solid fa-download text-white" style="color: #ffffff;"></i>
-                                    <a href="#" class="text-white">Download</a>
-                                </button>
+                                <div class="btn-container d-flex justify-content-center">
+                                    <button type="button" class="btn border-white rounded-3">
+                                        <i class="fa-solid fa-download text-white" style="color: #ffffff;"></i>
+                                        <a href="#" class="text-white text-center">Download</a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -157,7 +159,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <h1>CONTACT ME</h1>
+                                <h1 class="mt-5">CONTACT ME</h1>
 
                                 <div class="lines-and-stars">
                                     <div class="line"></div>
@@ -165,35 +167,39 @@
                                     <div class="line"></div>
                                 </div>
 
-                                <form class="contact-form">
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Name"/>
-                                        <label for="name">Name</label>
+                                <form class="contact-form px-5">
+                                    <div class="form-floating mb-3 bg-transparent">
+                                        <input class="form-control bg-light" id="name" type="text" placeholder="Name"/>
+                                        <label for="name" class="text-dark-blue">Name</label>
                                         <div class="invalid-feedback">A name number is required.</div>
                                     </div>
-
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email-address" type="text" placeholder="Email Address"/>
-                                        <label for="name">Email Address</label>
+                    
+                                    <div class="form-floating mb-3 bg-transparent">
+                                        <input class="form-control bg-light" id="email-address" type="text" placeholder="Email Address"/>
+                                        <label for="name" class="text-dark-blue">Email Address</label>
                                         <div class="invalid-feedback">An email address is required.</div>
                                     </div>
-
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone-number" type="text" placeholder="Phone Number"/>
-                                        <label for="name">Phone Number</label>
+                                
+                                    <div class="form-floating mb-3 bg-transparent">
+                                        <input class="form-control bg-light" id="phone-number" type="text" placeholder="Phone Number"/>
+                                        <label for="name" class="text-dark-blue">Phone Number</label>
                                         <div class="invalid-feedback">A phone number is required.</div>
                                     </div>
-
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="message" type="text" placeholder="Message"/>
-                                        <label for="name">Message</label>
+                                
+                                    <div class="form-floating mb-3 bg-transparent">
+                                        <textarea class="form-control bg-light" id="message" rows="5" placeholder="Message"></textarea>
+                                        <label for="name" class="text-dark-blue">Message</label>
                                         <div class="invalid-feedback">A message is required.</div>
                                     </div>
-                                </form>
 
-                                <button type="button" class="btn rounded-3 bg-light-green">
-                                    <a class="text-white" href="#">Send</a>
-                                </button>
+                                    <div class="btn-container d-flex justify-content-start">
+                                        <button type="button" class="btn rounded-3 bg-light-green mb-3">
+                                            <a class="text-white" href="#">Send</a>
+                                        </button>
+                                    </div>
+
+                                </form>   
+                            
                             </div>
                         </div>
                     </div>

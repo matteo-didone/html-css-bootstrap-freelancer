@@ -22,6 +22,11 @@ a
     background-color: rgba(27,189,156,255);
 }
 
+.text-dark-blue
+{
+    color: rgba(45,62,81,255);
+}
+
 /* GENERAL */
 .lines-and-stars 
 {
@@ -33,7 +38,7 @@ a
 
 .line 
 {
-    width: 140px;
+    width: 100px;
     height: 2px;
     background-color: #ffffff;
     margin-right: 10px;
@@ -108,7 +113,7 @@ header
 
 .section-2 .line 
 {
-    width: 140px;
+    width: 100px;
     height: 2px;
     background-color: rgba(45,62,81,255);
     margin-right: 10px;
@@ -138,7 +143,7 @@ header
 
 .line 
 {
-    width: 140px;
+    width: 100px;
     height: 2px;
     background-color: #ffffff;
     margin-right: 10px;
@@ -168,7 +173,7 @@ header
 
 .section-4 .line 
 {
-    width: 140px;
+    width: 100px;
     height: 2px;
     background-color: rgba(45,62,81,255);
     margin-right: 10px;
@@ -180,6 +185,41 @@ header
     font-size: 20px;
     margin-right: 10px; 
 }
+
+.form-control
+{
+    background-color: transparent !important;
+}
+
+.form-floating label
+{
+    color: rgba(45,62,81,255);
+    font-size: large;
+    margin-left: -10px;
+}
+
+.form-floating input.form-control 
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-floating textarea.form-control
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-floating input.form-control:focus 
+{
+    border-color: rgba(45,62,81,255);
+    box-shadow: none;
+}
+
 
 /* FOOTER */
 
