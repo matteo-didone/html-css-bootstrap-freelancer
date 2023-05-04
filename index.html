@@ -24,90 +24,99 @@
     <body>
 
         <header>
-            <div class="container-fluid"> 
-                <div class="navbar">
 
-                    <div class="start-bootstrap">
-                        <h1>START BOOTSTRAP</h1>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg d-flex"> 
+                    <div class="start-bootstrap ml-auto align-items-center justify-content-start">
+                        <h1 class="fs-3 fw-bold">START BOOTSTRAP</h1>
                     </div>
-
-                    <div class="hamburger-menu"> 
+    
+                    <div class="hamburger-menu align-items-center justify-content-end d-lg-none"> 
                         <i class="fa-solid fa-bars"></i>
                     </div>
-
-                    <div class="hidden">
-                        <nav>
-                            <ul>
-                                <li><a href="#">PORTFOLIO</a></li>
-                                <li><a href="#">ABOUT</a></li>
-                                <li><a href="#">CONTACT</a></li>
-                            </ul> 
-                        </nav>
+    
+                    <div class="collapse navbar-collapse d-none">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#">PORTFOLIO</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#">ABOUT</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="#">CONTACT</a></li>
+                        </ul> 
                     </div>
-
-                </div>
+    
+                </nav>
             </div>
+
         </header>
 
         <main>
             <div class="container-main">
 
                 <section class="section-1 start-bootstrap-section">
-                    <img src="img/avatar.svg" alt="avatar">
-                    <h1>START BOOTSTRAP</h1>
 
-                    <div class="lines-and-stars">
-                        <div class="line"></div>
-                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
-                        <div class="line"></div>
+                    <div class="container">
+                        <div class="row py-5">
+                            <div class="col-12 text-center">
+                                <img src="img/avatar.svg" alt="avatar" id="avatar" class="mb-2">
+                                <h1>START BOOTSTRAP</h1>
+                                <div class="lines-and-stars">
+                                    <div class="line"></div>
+                                    <span class="star"><i class="fa-solid fa-star" style="color: #ffffff;"></i></span>
+                                    <div class="line"></div>
+                                </div>
+                                <p class="fs-6 fs-md-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </section>
 
                 <section class="section-2 portfolio-section">
-                    <h1>PORTFOLIO</h1>
+                    <div class="container">
+                        <div class="row py-5">
+                            <div class="col-12 text-center">
+                                <h1 class="mb-3">PORTFOLIO</h1>
 
-                    <div class="lines-and-stars">
-                        <div class="line"></div>
-                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="grid-structure">
-                        <div class="row">
-
-                            <div class="col-4">
-                                <img src="img/cabin.png" alt="cabin">
+                                <div class="lines-and-stars">
+                                    <div class="line"></div>
+                                    <span class="star"><i class="fa-solid fa-star"></i></span>
+                                    <div class="line"></div>
+                                </div>
+            
+                                <div class="container-fluid grid-structure">
+                                    <div class="row">
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/cabin.png" alt="cabin" class="img-fluid py-2 rounded-5">
+                                        </div>
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/cake.png" alt="cake" class="img-fluid py-2 rounded-5">
+                                        </div>
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/circus.png" alt="circus" class="img-fluid py-2 rounded-5">
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="row py-2">
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/game.png" alt="game" class="img-fluid py-2 rounded-5">
+                                        </div>
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/safe.png" alt="safe" class="img-fluid py-2 rounded-5">
+                                        </div>
+            
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <img src="img/submarine.png" alt="submarine" class="img-fluid py-2 rounded-5">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div class="col-4">
-                                <img src="img/cake.png" alt="cake">
-                            </div>
-
-                            <div class="col-4">
-                                <img src="img/circus.png" alt="circus">
-                            </div>
-
                         </div>
-
-                        <div class="row">
-
-                            <div class="col-4">
-                                <img src="img/game.png" alt="game">
-                            </div>
-
-                            <div class="col-4">
-                                <img src="img/safe.png" alt="safe">
-                            </div>
-
-                            <div class="col-4">
-                                <img src="img/submarine.png" alt="submarine">
-                            </div>
-                        </div>
-
                     </div>
-
                 </section>
 
                 <section class="section-3 about-section">
@@ -115,7 +124,7 @@
 
                     <div class="lines-and-stars">
                         <div class="line"></div>
-                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
                         <div class="line"></div>
                     </div>
 
@@ -142,7 +151,7 @@
 
                     <div class="lines-and-stars">
                         <div class="line"></div>
-                        <span class="star px-4"><i class="bi bi-star-fill"></i></span>
+                        <span class="star"><i class="fa-solid fa-star"></i></span>
                         <div class="line"></div>
                     </div>
 
@@ -180,7 +189,7 @@
         </main>
 
         <footer>
-            
+
             <div class="container-footer">
 
                 <section class="footer-top row">

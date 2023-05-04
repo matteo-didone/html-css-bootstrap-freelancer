@@ -17,20 +17,49 @@ a
     display: none;
 }
 
+/* GENERAL */
+.lines-and-stars 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.line 
+{
+    width: 140px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.star 
+{
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
 /* HEADER */
 header
 {
     color: white;
     background-color: rgba(45,62,81,255);
+    height: 80px;
 }
 
-/* MAIN */
+.start-bootstrap
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
-/* SECTION 1 */
-.section-1
+.nav-link
 {
     color: white;
-    background-color: rgba(27,189,156,255);
+    font-weight: bolder;
 }
 
 .hamburger-menu
@@ -42,11 +71,49 @@ header
     border-radius: 5px;
 }
 
+/* MAIN */
+
+/* SECTION 1 */
+.section-1
+{
+    color: white;
+    background-color: rgba(27,189,156,255);
+}
+
+#avatar
+{
+    height: 260px;
+    width: 225px;
+}
+
 /* SECTION 2 */
 .section-2
 {
     color: rgba(45,62,81,255);
     background-color: white;
+}
+
+.section-2 .lines-and-stars 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-2 .line 
+{
+    width: 140px;
+    height: 2px;
+    background-color: rgba(45,62,81,255);
+    margin-right: 10px;
+}
+
+.section-2 .star 
+{
+    color: rgba(45,62,81,255);
+    font-size: 20px;
+    margin-right: 10px; 
 }
 
 /* SECTION 3 */
@@ -56,11 +123,57 @@ header
     background-color: rgba(27,189,156,255);
 }
 
+.lines-and-stars 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.line 
+{
+    width: 140px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.star 
+{
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
 /* SECTION 4 */
 .section-4
 {
     color: rgba(45,62,81,255);
     background-color: white;
+}
+
+.section-4 .lines-and-stars 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-4 .line 
+{
+    width: 140px;
+    height: 2px;
+    background-color: rgba(45,62,81,255);
+    margin-right: 10px;
+}
+
+.section-4 .star 
+{
+    color: rgba(45,62,81,255);
+    font-size: 20px;
+    margin-right: 10px; 
 }
 
 /* FOOTER */
